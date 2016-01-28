@@ -1,10 +1,10 @@
 # Simple Horizontal Dropdown Menu
 
-TODO: Write a project description
+A very basic horizontally laid out drop down navigation.  
 
 ## Installation
 
-TODO: Describe the installation process
+Download the package and just use the CSS, JS and structure as you need.
 
 ## Usage
 
@@ -20,7 +20,7 @@ TODO: Write usage instructions
 
 ## History
 
-TODO: Write history
+TODO: Build into a plugin with a few options I have in mind.
 
 ## Credits
 
