@@ -1,0 +1,118 @@
+a {
+	text-decoration: none;
+}
+
+#menu-btn {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.sub-header {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-39px;
+	width:100%;
+	z-index:9;
+	-webkit-transition:margin-top .3s ease-in-out;
+	transition:margin-top .3s ease-in-out;
+	font-family: "Open Sans", sans-serif;
+}
+
+@media only screen and (max-width:414px) {
+	.sub-header {
+		margin-top:-100%;
+		top:101px;
+	}
+}
+
+.sub-header .inner {
+	max-width:1020px;
+	margin:0 auto;
+	position:relative;
+}
+
+.sub-header ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+.sub-header ul li {
+	display:inline-block;
+	float:left;
+	width:25%;
+	text-align:center;
+	margin:0;
+	position:relative;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+@media only screen and (max-width:414px) {
+	.sub-header ul li {
+		width:100%;
+	}
+}
+
+.sub-header ul li.icon {
+	width:6%;
+}
+
+@media only screen and (max-width:414px) {
+	.sub-header ul li.icon {
+		width:50%;
+	}
+}
+
+.sub-header ul li:nth-child(1) a,.sub-header ul li:nth-child(2) a,.sub-header ul li:nth-child(3) a,.sub-header ul li:nth-child(4) a,.sub-header ul li:nth-child(5) a {
+	border-right:1px solid #1297A1;
+}
+
+.sub-header ul li:hover a {
+	background:#222;
+	border-color:#222;
+}
+
+.sub-header ul li.active a {
+	background:#000;
+	border-color:#000;
+}
+
+@media only screen and (max-width:414px) {
+	.sub-header ul li.active a {
+		background:#1B8F98;
+		border-color:#1B8F98;
+	}
+}
+
+.sub-header ul li a {
+	display:block;
+	padding:10px;
+	background:#0AA0AA;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:100;
+	-webkit-transition:background-color .15s ease-in-out,border .15s ease-in-out;
+	transition:background-color .15s ease-in-out,border .15s ease-in-out;
+}
+
+@media only screen and (max-width:414px) {
+	.sub-header ul li a {
+		padding:20px;
+		border:none;
+		border-bottom:1px solid #1297A1;
+		font-size:15px;
+	}
+}
+
+.navigation-is-open .sub-header {
+	margin-top:0;
+}
